@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "stdio.h": "c",
+        "DWL_1.C": "cpp"
+    },
+    "C_Cpp.errorSquiggles": "enabled",
+    "problems.showCurrentInStatus": true
+}
