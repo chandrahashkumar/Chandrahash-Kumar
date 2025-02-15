@@ -17,20 +17,23 @@ int main(){
     int age;
     printf("Enter your age: ");
     scanf("%d",&age);
-    if (age>0 && age <12){
-        printf("child");
+    if(age>0){
+        
+        if(age <=12){
+            printf("Child");
+        }
+        else if(age<=17){
+            printf("Teenage");
+        }
+        else if(age <=60){
+            printf("Adult");
+        }
+        else if(age >60){
+            printf("Senior citizen");
+        }    
     }
-    else if(age<=18){
-        printf("Teenager");
+    else{
+        printf("Invalid age!");
     }
-    else if(age<=50){
-        printf("adult");
-    }
-    else if (age <=80){
-        printf("old");
-    }
-    else if(age>80){
-    
-         printf("budha");
-    }
+    return 0;
 }
